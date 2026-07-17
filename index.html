@@ -1,71 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bloom & Stems | Fresh Flowers, Delivered</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bloom & Stems | Premium Hibiscus Wellness</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <a href="#" class="logo">Bloom & Stems</a>
-      <nav>
-        <a href="#collections">Collections</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <section class="hero">
-    <div class="container">
-      <img src="hero-flowers.jpg" class="hero-image" alt="A hand-tied bouquet of fresh seasonal flowers">
-      <h1>Fresh Flowers, Delivered with Care</h1>
-      <p>Hand-tied bouquets sourced from local growers, delivered to your door.</p>
-      <a href="#contact" class="btn">Shop the Collection</a>
+<header class="site-nav">
+  <div class="nav-pill">
+    <div class="nav-inner">
+      <a href="#" class="brand-block">
+        <span class="brand">
+          <svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg>
+          Bloom &amp; Stems
+        </span>
+        <span class="nav-tagline">From Bush to Brew</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#mission">Our story</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#benefits">Wellness</a></li>
+      </ul>
+      <a href="#products" class="btn btn-green">Shop now</a>
+      <button class="nav-toggle" aria-label="Menu" style="display:none;">☰</button>
     </div>
-  </section>
+  </div>
+</header>
 
-  <section id="collections" class="collections">
-    <div class="container">
-      <h2>Our Collections</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Seasonal Bouquets</h3>
-          <p>A rotating selection of what's freshest this week.</p>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <div class="hero-content">
+        <div class="hero-badge">Premium Hibiscus Wellness</div>
+        <h1>From Your First Sip to <em>Every Season</em> of Life</h1>
+        <p class="lede">One plant. A lifetime of wellness. Bloom &amp; Stems brings you the finest hibiscus from around the world — as close to its natural state as possible.</p>
+        <div class="hero-ctas">
+          <a href="#products" class="btn btn-green">Explore our range</a>
+          <a href="#join" class="btn btn-outline">Get our free guide</a>
         </div>
-        <div class="card">
-          <h3>Wedding Florals</h3>
-          <p>Custom arrangements for your big day.</p>
-        </div>
-        <div class="card">
-          <h3>Everyday Stems</h3>
-          <p>Simple, affordable arrangements for any occasion.</p>
+      </div>
+      <div class="hero-video">
+        <!-- Replace with a real <video> or embed when footage is ready, e.g.:
+             <video src="your-video.mp4" poster="poster.jpg" controls playsinline></video> -->
+        <div class="hero-video-inner">
+          <button class="video-play" aria-label="Play video">&#9658;</button>
+          <span class="video-label">See Bloom &amp; Stems in action</span>
         </div>
       </div>
     </div>
-  </section>
-
-  <section id="about" class="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>Bloom & Stems is a small, family-run flower shop dedicated to bringing fresh, sustainably sourced blooms to your home or event.</p>
+    <div class="hero-visual">
+      <div class="hero-tile ht-1"><svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg><span>Pure Tea</span></div>
+      <div class="hero-tile ht-2"><svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg><span>Petals</span></div>
+      <div class="hero-tile ht-4"><svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg><span>Oxford Blend</span></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Get in Touch</h2>
-      <p>Questions about an order or a custom arrangement? Reach out anytime.</p>
-      <a href="mailto:hello@bloomandstems.com" class="btn">Email Us</a>
-    </div>
-  </section>
+<div class="promise">
+  <div class="wrap positioning-inner">
+    <p>Every season of life · Every reason to thrive · One craft ingredient</p>
+  </div>
+</div>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Bloom & Stems. All rights reserved.</p>
+<section class="section" id="mission">
+  <div class="wrap story-grid">
+    <div class="story-art">
+      <svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg>
     </div>
-  </footer>
+    <div class="story-copy">
+      <span class="eyebrow">Our mission</span>
+      <h2>From Bush to Brew</h2>
+      <p>Our mission is simple — to source the finest herbs from around the world and bring them to you as close to their natural state as possible.</p>
+      <p>No fillers. No shortcuts. No compromise. Whether you're nurturing your skin, supporting your heart, boosting your energy, or finding your calm — hibiscus works with your body, naturally.</p>
+      <p class="story-sign">True to our promise. From bush to brew.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section how" id="life-stage">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Your wellness journey</span>
+      <h2>Wherever You Are — We're Brewing for You</h2>
+      <p>Every chapter. Every goal. One brew.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-step"><div class="benefit-icon">🌿</div><h3>Young &amp; thriving</h3><p>Energy, metabolism and glowing skin. Hibiscus meets your body where it is.</p></div>
+      <div class="how-step"><div class="benefit-icon">💪</div><h3>Active &amp; focused</h3><p>Natural antioxidants to fuel your performance and your recovery.</p></div>
+      <div class="how-step"><div class="benefit-icon">🤱</div><h3>Mothers &amp; nurturers</h3><p>Caffeine-free wellness you can feel good about at every stage of motherhood.</p></div>
+      <div class="how-step"><div class="benefit-icon">🌸</div><h3>Rooted &amp; wise</h3><p>Blood pressure support, heart health and calm — naturally, daily, beautifully.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="products">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Our launch range</span>
+      <h2>Craft Quality. Honest Ingredients.</h2>
+      <p>Three ways to experience hibiscus at its finest</p>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-swatch sw-2"><svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg></div>
+        <div class="product-body">
+          <h3>Dried Hibiscus Petals</h3>
+          <div class="size">50g</div>
+          <p>Pure, natural petals. Steep them, cook with them, make them yours. The foundation of everything we do.</p>
+          <div class="product-footer"><span class="price">£6.99</span><button class="add-btn">Add to Bag</button></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-swatch sw-1"><span class="product-tag">Most popular</span><svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg></div>
+        <div class="product-body">
+          <h3>Pure Hibiscus Tea</h3>
+          <div class="size">25 cotton tea bags · 50g</div>
+          <p>Bold floral flavour. Nothing added. Our 25 cotton tea bags deliver a premium brew, every single time.</p>
+          <div class="product-footer"><span class="price">£7.99</span><button class="add-btn">Add to Bag</button></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-swatch sw-3"><svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg></div>
+        <div class="product-body">
+          <h3>Oxford Blend Powder</h3>
+          <div class="size">Ground Hibiscus · 100g</div>
+          <p>Our signature craft powder. Smooth, rich, versatile. Blend it, bake it, elevate everything.</p>
+          <div class="product-footer"><span class="price">£10.99</span><button class="add-btn">Add to Bag</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="products-more"><a href="#" class="btn btn-outline">View Full Collection</a></div>
+  </div>
+</section>
+
+<section class="section" id="provenance">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Our promise</span>
+      <h2>From the World's Finest Growers — to Your Cup</h2>
+      <p>We believe what comes from the earth should stay close to the earth. Every petal, every powder, every bag carries a provenance story. That story is our competitive advantage — and your guarantee.</p>
+    </div>
+    <div class="stockist-row">
+      <span>Ethically sourced</span>
+      <span>No fillers</span>
+      <span>Craft quality</span>
+      <span>Food grade certified</span>
+      <span>Never cheap</span>
+      <span>From bush to brew</span>
+    </div>
+  </div>
+</section>
+
+<section class="section how benefits" id="benefits">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why hibiscus</span>
+      <h2>One Plant. Endless Benefits.</h2>
+      <p>Centuries of wellness. Proven by nature.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-step"><div class="benefit-icon">❤️</div><h3>Heart health</h3><p>Studies show hibiscus supports healthy blood pressure levels, naturally.</p></div>
+      <div class="how-step"><div class="benefit-icon">⚡</div><h3>Natural energy</h3><p>Rich in Vitamin C and polyphenols to give your day a clean, natural lift.</p></div>
+      <div class="how-step"><div class="benefit-icon">✨</div><h3>Radiant skin</h3><p>Natural AHAs that gently brighten and firm — the botanical botox plant.</p></div>
+      <div class="how-step"><div class="benefit-icon">🌙</div><h3>Calm &amp; sleep</h3><p>Caffeine-free and naturally soothing. Your perfect evening ritual.</p></div>
+      <div class="how-step"><div class="benefit-icon">🌿</div><h3>Gut health</h3><p>Supports healthy digestion and reduces inflammation from the inside out.</p></div>
+      <div class="how-step"><div class="benefit-icon">🏋️</div><h3>Metabolism</h3><p>Antioxidant-rich and metabolism-supporting for your active lifestyle.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section cta-band" id="join">
+  <div class="wrap">
+    <div class="inner">
+      <span class="eyebrow">Be first</span>
+      <h2>Your Health Goals.<br>Your Stage of Life.<br><em>One Craft Ingredient.</em></h2>
+      <p>Join our community and be first to know when we launch — plus get exclusive early access and a free hibiscus wellness guide.</p>
+      <form class="cta-form" onsubmit="return false;">
+        <input type="email" placeholder="Your email address" required>
+        <button class="btn btn-pink" type="submit">Join the list</button>
+      </form>
+      <p class="cta-fineprint">No spam. Just things worth knowing. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="brand">
+          <svg viewBox="0 0 100 100"><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(72 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(144 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(216 50 50)"/><path d="M50,50 C30,30 30,10 50,0 C70,10 70,30 50,50 Z" transform="rotate(288 50 50)"/><circle cx="50" cy="50" r="9"/></svg>
+          Bloom &amp; Stems
+        </a>
+        <div class="footer-tagline">From Bush to Brew</div>
+        <p>Premium dried hibiscus — petals, powder, tea and blends — wild-sourced and crafted for modern wellness rituals across the world.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TT</a>
+          <a href="#" aria-label="Pinterest">PN</a>
+        </div>
+      </div>
+      <div>
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">Gift Sets</a></li>
+          <li><a href="#">Blends</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Wholesale &amp; Stockists</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+          <li><a href="#">Track My Order</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; Bloom &amp; Stems 2025 · United Kingdom · Premium Hibiscus Wellness</span>
+      <span>Privacy Policy · Terms of Service</span>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
